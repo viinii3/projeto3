@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de violas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeçalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Loja de Instrumentos</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegação">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instrumentos">
+                            <i class="bi bi-cart"></i>
+                            Estoque
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabeçalho" data-bs-smooth-scroll="true">
+
+        <section  id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="">
+                        <img src="https://i.pinimg.com/564x/b8/44/15/b8441520dd87a19e55523d1c631a8912.jpg" id="img-carousel" class="w-100 h-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="">
+                        <img src="https://i.pinimg.com/564x/db/9a/c0/db9ac039a31f242a33b1919779950f43.jpg" id="img-carousel" class="w-100 h-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="">
+                        <img src="https://i.pinimg.com/564x/58/57/ef/5857ef3e30bb393c570a6b19583c0ed5.jpg" id="img-carousel" class="w-100 h-100">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://i.pinimg.com/564x/d0/01/ab/d001abc7456eb677f4d468ca30d2a3e9.jpg" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">sobre <span class="text-colored">a Loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit, 
+                                amet consectetur adipisicing 
+                                elit. Facilis fuga non, cupiditate 
+                                assumenda eum quasi placeat magni, 
+                                quod veritatis quibusdam veniam 
+                                excepturi omnis id animi aut eaque? 
+                                Nisi, a voluptates.
+                            </p>
+                            <h3 class="section-title">sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet 
+                                consectetur, adipisicing elit. 
+                                Repellat modi aliquam labore. 
+                                Similique illo asperiores, repudiandae 
+                                id suscipit consequatur assumenda 
+                                doloribus possimus nostrum libero, 
+                                adipisci optio quibusdam? Temporibus, 
+                                magnam atque.
+                            </p>
+                            <ul>
+                                <li>categoria 1</li>
+                                <li>categoria 2</li>
+                                <li>categoria 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="instrumentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Instrumentos <span class="text-colored">em estoque</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#violinos" class="nav-link fw-bold text-start active text-colored">violinos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#violas" class="nav-link fw-bold text-start text-colored">violas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sax" class="nav-link fw-bold text-start text-colored">saxsofones</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tubas" class="nav-link fw-bold text-start text-colored">tubas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="violinos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/da/ac/b1/daacb1f3cbf90c1237316c134375f239.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">violino h2356</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/dd/1a/2f/dd1a2f5071f25298fb2d933743e04933.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">violino hb500</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="violas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/05/cd/e4/05cde48b7b13c242c0325e1ec1afb934.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">viola eagle23</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/f3/48/53/f3485362393f9fc3028615729c93c745.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">viola hj689</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="sax">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/c6/5b/6a/c65b6ade69a4cae103c07b69449a5549.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">saxsofone tenor</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/50/6b/83/506b83115a1837a3dd42d78da19240a5.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">saxsofone alto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="tubas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/d2/21/f5/d221f5440e11628d1b45a26a58f31aac.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">tuba kd7000</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://i.pinimg.com/564x/39/73/7d/39737d0db4a8d5d58f565cb3d5b7dea1.jpg" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">tuba mn2500</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5"> fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label class="form-label fw-bold text-colored " for="nome">seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label class="form-label fw-bold text-colored" for="email">seu email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label class="form-label fw-bold text-colored" for="telefone">seu telefone: (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label class="form-label fw-bold text-colored" for="menssagem">sua menssagem:</label>
+                                <textarea id="menssagem" cols="30" rows="10" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
